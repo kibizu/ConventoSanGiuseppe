@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/convento"
+                android:scaleType="center"
+                android:contentDescription="@string/logoConvento"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textSize="@dimen/company_name"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="@dimen/padding_cname"
+                android:textColor="@color/colorCompanyName"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/contactInfo"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:paddingBottom="@dimen/pdbottomCat"
+                android:textColor="@color/colorCompanyName"
+                android:textSize="@dimen/CatSize"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/pdbottomCat">
+
+                <!--This is the first column of the CONTACT INFORMATIONS -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/paddingRightFC">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/phone"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorCompanyName"
+                        android:textAlignment="viewEnd"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorCompanyName"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textAlignment="viewEnd"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textAlignment="viewEnd"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/site"
+                        android:textStyle="bold"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textColor="@color/colorCompanyName"
+                        android:textAlignment="viewEnd"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address"
+                        android:textStyle="bold"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textColor="@color/colorCompanyName"
+                        android:textAlignment="viewEnd"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hoursOperation"
+                        android:textStyle="bold"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textColor="@color/colorCompanyName"
+                        android:textAlignment="viewEnd"/>
+
+                </LinearLayout>
+
+                <!--This is the second column of the CONTACT INFORMATIONS -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/phoneNumber"
+                        android:textAlignment="viewStart"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email1"
+                        android:onClick="requestInfoEmail"
+                        android:textColor="@color/linkColor"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textAlignment="viewStart"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email2"
+                        android:onClick="requestEmail"
+                        android:textColor="@color/linkColor"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:textAlignment="viewStart"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/siteAddress"
+                        android:textColor="@color/linkColor"
+                        android:paddingTop="@dimen/paddingT5"
+                        android:onClick="openSite"
+                        android:textAlignment="viewStart"/>
+                    <TextView
+                        android:paddingTop="@dimen/paddingT5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/addressText"
+                        android:textAlignment="viewStart"/>
+
+                    <TextView
+                        android:paddingTop="@dimen/paddingT5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hoursText"
+                        android:textAlignment="viewStart"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/desc"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorCompanyName"
+                android:textSize="@dimen/CatSize"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/descText"
+                android:textAlignment="center"
+                android:padding="@dimen/paddingT10"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>

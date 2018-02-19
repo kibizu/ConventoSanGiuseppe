@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="company_name">20sp</dimen>
+    <dimen name="padding_cname">20dp</dimen>
+    <dimen name="paddingRightFC">15dp</dimen>
+
+    <!--pdbottomCI is the padding bottom of the Categories-->
+    <dimen name="pdbottomCat">10dp</dimen>
+
+    <!--this is the text size of each category-->
+    <dimen name="CatSize">16sp</dimen>
+
+    <!--this is a generic padding top 10dp-->
+    <dimen name="paddingT10">10dp</dimen>
+
+    <!--this is a generic padding top 5dp-->
+    <dimen name="paddingT5">5dp</dimen>
+</resources>

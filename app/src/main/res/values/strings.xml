@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Convento San Giuseppe</string>
+    <string name="contactInfo">Contact informations</string>
+    <string name="phone">Phone</string>
+    <string name="phoneNumber">+39 070 503343</string>
+    <string name="email">email</string>
+    <string name="email1">info@conventosangiuseppe.com</string>
+    <string name="email2">segreteria@conventosangiuseppe.com</string>
+    <string name="site">Web Site</string>
+    <string name="siteAddress">www.conventosangiuseppe.com</string>
+    <string name="address">Address</string>
+    <string name="addressText">Via Paracelso 09131 Cagliari (Cagliari)</string>
+    <string name="desc">Company Description</string>
+    <string name="descText">Convento San Giuseppe is a splendid location located in Sardinia and more precisely in Cagliari.
+It is distinguished by the hospitality, competence and friendliness with which for 28 years organizes events, especially weddings.</string>
+    <string name="hoursOperation">Open</string>
+    <string name="hoursText">twenty-four hours a day</string>
+    <string name="logoConvento">Un immagine del convento con il logo dell\'azienda</string>
+</resources>
